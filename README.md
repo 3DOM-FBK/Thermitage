@@ -1,6 +1,6 @@
-# THERMITAGE: A Benchmarking Repository for Cultural Heritage InfraRed Thermography
+# THERMITAGE: A Curated Data Repository of Multi-Modal, Multi-Temporal and Multi-Sensor Thermal Images
 
-**Thermitage** is a research-oriented repository dedicated to advancing the integration of InfraRed Thermography (IRT) for 3D photogrammetric data fusion. In addition, this repository will provide benchmarking for the development of machine- and deep learning tools tailored to cultural heritage applications.
+**Thermitage** is a research-oriented data repository dedicated to advancing the integration of InfraRed Thermography (IRT) within photogrammetric data fusion. The ambition for Thermitage, sharing an initial collection of datasets generated specifically for InfraRed Thermography 3D-Data Fusion (IRT-3DDF), is to provide a collaborative repository to advance data fusion methods focussed on the significance of historic buildings.In addition, this repository will provide benchmarking for the development of future machine- and deep learning tools tailored to cultural heritage applications.
 
 <p align="center">
   <img src="misc/GATE_VIS.gif" width="55%" />
@@ -10,7 +10,7 @@
 ## 🔍 Core Objectives:
 
 - **IRT & Photogrammetry Data Fusion**  
-  Advance the field of InfraRed Thermography and 3D-data Fusion (IRT-3DDF).
+  Advance the field of IRT-3DDF.
 
 - **IRT for Deep Learning Benchmarking**  
   Provide datasets for learning-based segmentation, defect detection, and temporal analyses.
@@ -20,7 +20,7 @@
 
 ## 🛠 Features:
 
-- 🖼 **IRT Datasets:** A collection of Infrared Thermography datasets across sensors, cameras and platforms. This includes: (1) tandem sensors featured within the same thermal camera housing, thermal cameras of varying resolution, IR wavelengths and sensitivity; (2) complementary datasets coming from additional digital cameras, device screenshots or  advanced file formats; and (3) IRT coming from terrestrial (independent cameras or stereo set-ups) and aerial (UAV or fixed-wing aircraft) devices.
+- 🖼 **IRT Datasets:** A collection of InfraRed Thermography datasets across sensors, cameras and platforms. This includes: (1) tandem sensors featured within the same thermal camera housing, thermal cameras of varying resolution, IR wavelengths and sensitivity; (2) complementary datasets coming from additional digital cameras, device screenshots or  advanced file formats; and (3) IRT coming from terrestrial (independent cameras or stereo set-ups) and aerial (UAV or fixed-wing aircraft) devices.
 - 🧠 **IRT Benchmarking:** A comprehsnive collection of thermal infrared (TIR) images denoted for training \& validation of machine- and deep-learning models.  
 - 📐 **IRT Processing Tools:** A collection of scripts and utilities for pre- and post-processing TIR images. This includes: (1) scripts designed to aid geometric and radiometric analysis of TIR images; (2) camera-specific scripts designed to work with specific functions and protocols; (3) a space for the development of additional tools through community-led projects.  
 
