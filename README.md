@@ -3,10 +3,10 @@
 **Thermitage** is a research-oriented data repository dedicated to advancing the integration of InfraRed Thermography (IRT) within photogrammetric data fusion. The ambition for Thermitage, sharing an initial collection of datasets generated specifically for InfraRed Thermography 3D-Data Fusion (IRT-3DDF), is to provide a collaborative repository to advance data fusion methods focussed on the significance of historic buildings. In addition, this repository will provide benchmarking for the development of future machine- and deep learning tools tailored to cultural heritage applications.
 
 <p align="center">
-  <img src="utils/gifs/WIND-TIR.gif" width="49.5%" />
-  <img src="utils/gifs/GATE-TIR.gif" width="49.5%" />
-  <img src="utils/gifs/ARCO-TIR.gif" width="49.5%" />
-  <img src="utils/gifs/DUNR-M3T.gif" width="49.5%" />
+  <img src="utils/gifs/WIND-TIR.gif" width="24.5%" />
+  <img src="utils/gifs/GATE-TIR.gif" width="24.5%" />
+  <img src="utils/gifs/ARCO-TIR.gif" width="24.5%" />
+  <img src="utils/gifs/DUNR-M3T.gif" width="24.5%" />
 </p>
 
 ## 🔍 Core Objectives:
