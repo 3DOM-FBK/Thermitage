@@ -1,1 +1,0 @@
-# Code to plot before and after THERMIC corrections

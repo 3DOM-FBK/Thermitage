@@ -1,1 +1,0 @@
-Build documentation for THERMIC usage

@@ -1,0 +1,32 @@
+{
+  "camera": "",
+  "sensor": "",
+  "resolution_pix": {
+    "width_pix": null,
+    "height_pix": null
+  },
+  "sensor_size_mm": {
+    "width_mm": null,
+    "height_mm": null
+  },
+  "pixel_pitch_um": null,
+  "description": "",
+  "intrinsics": {
+    "fx_pix": null,
+    "fy_pix": null,
+    "cx_pix": null,
+    "cy_pix": null
+  },
+  "distortion": {
+    "k": {
+      "k1": null,
+      "k2": null,
+      "k3": null
+    },
+    "p": {
+      "p1": null,
+      "p2": null
+    },
+    "b": null
+  }
+}
