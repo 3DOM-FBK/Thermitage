@@ -2,7 +2,7 @@
 
 Thermitage is designed to be a benchmarking repository for members of the IRT and digital cultural heritage (DCH) communities to access, analyse and share datasets for the advancement of IRT. Therefore, we hope contributors will engage with fellow members to build a FAIR repository that can be continually improved and developed with new features.
 
-## Types of COntributions:
+## Types of Contributions:
 
 You can contribute by:
 - Adding new datasets (following the folder structure and metadata templates)
@@ -11,17 +11,9 @@ You can contribute by:
 - Submitting bug reports or feature requests
 - Helping with translations or outreach
 
-## Term Definitions:
-
-- **TIR:** Infrared images coming from a thermal camera
-- **VIS:** Images coming from the visible spectrum sensor within the thermal infrared camera. This designation is important as VIS images should be accompanied by a corresponding (and identifiable) TIR pair. 
-- **RGB:** Images coming from separate digital cameras 
-
 ## Data Structure:
 
 All data deposited into Thermitage must be deposited with a logical data structure, however no universal structure is provided. We are happy to work with depositors to help you determine the best structure for your data set.
-
-## **Naming Conventions (Projects, Datasets, Files):**
 
 ### Project: 
 
@@ -48,21 +40,7 @@ A Dataset folder is used to contain all the images collected within an IRT imagi
 
 #### Sub Folders:
 
-If a thermal camera allows for multiple file formats, images and previewes to be capture simultaneously, separated sub-folders should be specified. Although this will be camera specific, we recommend specifying the modality (e.g., 'Rad' for Radiometric, SupRes for Super Resolution), the sensor (e.g., TIR, VIS, RGB) and file format (e.g., JPG, TIFF, PNG):
+If a thermal camera allows for multiple file formats, images and previewes to be capture simultaneously, separated sub-folders should be specified. Although this will be camera specific, we recommend specifying the modality (e.g., 'Rad' for Radiometric, SupRes for Super Resolution), the sensor (e.g., TIR, VIS, RGB) and file format (e.g., JPG, TIFF, PNG).
 
-      a.    RadJPG = InfraRed sensor .jpg files
-      b.    RadTIFF = InfraRed .tiff or .tif files
-      c.    SupResJPG =  SuperResolution .jpg files
-      d.    VisJPG = Visible sensor .jpg files
-      e.    ScrShJPG = Screenshots 
-      f.    ScrRc = Screen Recording
-
-### Files:
-
-### Metadata:
-
-Metadata should be generated for each subfolder 
-
-##  References:
 
 

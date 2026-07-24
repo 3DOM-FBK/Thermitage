@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="utils/gifs/DUNR-M3T.gif" width="24.5%" />
-  <img src="utils/gifs/GATE-TIR.gif" width="24.5%" />
   <img src="utils/gifs/WIND-TIR.gif" width="24.5%" />
+  <img src="utils/gifs/DUNR-M3T.gif" width="24.5%" />
   <img src="utils/gifs/ARCO-TIR.gif" width="24.5%" />
+  <img src="utils/gifs/GATE-TIR.gif" width="24.5%" />
 </p>
 
 # THERMITAGE: A Curated Data Repository of Multi-Modal, Multi-Temporal and Multi-Sensor Thermal Images
@@ -28,7 +28,7 @@
 
 - 📐 **IRT Processing Tools:** A collection of scripts and utilities for pre- and post-processing TIR images. This includes: (1) scripts designed to aid geometric and radiometric analysis of TIR images; (2) camera-specific scripts designed to work with specific functions and protocols; (3) a space for the development of additional tools through community-led projects.  
 
-## 📦 Datasets:
+## 📁 Datasets:
 
 <p align="center">
   <img src="utils/images/ARCO.png" width="24.5%" />
@@ -37,9 +37,8 @@
   <img src="utils/images/WIND.png" width="24.5%" />
 </p>
 
-| Datasets: | Sensors: | | | Surveys: | | |
+| Datasets: | TIR | VIS | RGB | UAV | TLS | SLAM |
 |---|---|---|---|---|---|---|
-| | TIR | VIS | RGB | UAV | TLS | SLAM |
 |**ARCO**|✓|✓|✓|–|–|✓|
 |**GATE**|✓✓|✓✓|✓✓|–|✓|–|
 |**DUNR**|✓✓|✓✓|✓✓|✓|–|–|

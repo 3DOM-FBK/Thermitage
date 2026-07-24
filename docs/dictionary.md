@@ -35,3 +35,8 @@ For all dictionary terms:
 - **T<sub>2D</sub>:** The recorded temperature within the 2D thermal image. This is used to represent either an individual pixel value or the image in its entirety.
 - **T<sub>3D</sub>:** The temperature encapsulated within the generated 3D thermal model. Similarly, this term is used to specify individual point or mesh values as well as the model in its entirety.
 
+## Term Definitions:
+
+- **TIR:** Infrared images coming from a thermal camera
+- **VIS:** Images coming from the visible spectrum sensor within the thermal infrared camera. This designation is important as VIS images should be accompanied by a corresponding (and identifiable) TIR pair. 
+- **RGB:** Images coming from separate digital cameras 
