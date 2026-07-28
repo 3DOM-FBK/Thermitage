@@ -13,7 +13,7 @@ component temperatures within this repository, demonstrating the transformation 
 
 ## Method:
 
-Radiometric Control method(s) used (delete as necessary):
+Radiometric Control method(s) used:
 
 - **Proximal InfraRed Thermometer**
 

@@ -50,6 +50,8 @@
 
 EXPLAIN ZENODO AND WHY IT WAS CHOSEN, HOW TO ACCESS THE DATA AND ANY SAFETY REQUIREMENTS ETC.
 
+SPECIFY ORCID ATTACHED TO EACH DATASET
+
 ## 📦 Structure:
 
 - **/data** → Sample IRT datasets separated by location, modalties and processes. 
