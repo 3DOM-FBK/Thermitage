@@ -18,7 +18,7 @@
   Provide datasets for learning-based segmentation, defect detection, and temporal analyses.
 
 - **Cultural Heritage Focus:**  
-  Enhance the principles and practices of IRT-3DDF for non-destructive testing (NDT)techniques within cultural and architectural heritage.
+  Enhance the principles and practices of IRT-3DDF for non-destructive testing (NDT) techniques within cultural and architectural heritage.
 
 ## 🛠 Features:
 

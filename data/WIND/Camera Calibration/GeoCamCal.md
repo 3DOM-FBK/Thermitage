@@ -1,4 +1,4 @@
-# Geometric Camera Calibration - [INSERT CODE HERE]
+# Geometric Camera Calibration - GATE
 
 This document describes the geometric camera calibration carried out for all sensors in [INSERT SITE NAME], including interior- and relative orientation parameters, methodology, equipment and an index of the supporting documents contained in this folder.
 

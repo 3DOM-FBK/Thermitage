@@ -1,0 +1,25 @@
+{
+  "Purpose": "Pre-calibrated relative orientation (RO) parameters for DJI Mavic 3T",
+  "camera": "DJI Mavic 3T",
+  "sensors": {
+    "TIR": "M3T_TIR",
+    "VIS": "M3T_VIS",
+    "Mapping": "Mapping of M3T_TIR with respect to M3T_VIS"
+  },
+  "relative_orientation": {
+    "X_mm": -19.733,
+    "Y_mm": 1.067,
+    "Z_mm": -11.782,
+    "omegaX_deg": -0.012,
+    "phiY_deg": 1.183,
+    "kappaZ_deg": 0.385
+  },
+  "RO_sigma": {
+    "X_mm": 2.776,
+    "Y_mm": 2.807,
+    "Z_mm": 1.975,
+    "omegaX_deg": 0.021,
+    "phiY_deg": 0.020,
+    "kappaZ_deg": 0.014
+  }
+}

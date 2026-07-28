@@ -16,7 +16,7 @@ This document describes the datasets available for Dunrobin House (DUNR), includ
     - RGB: 03/11/2023 15:00
     - TIR: 15/10/2023 23:00
     - M3T: --- (TBC)
-    - Geometric Control: 23/11/2023
+    - TST: 23/11/2023
 - **Site Conditions:**
   - Weather: Clear, dry for both TIR and RGB surveys. TIR undertaken at night to mimic conditions of energy audit and minimise solar radiation effects.
   - Visibility: No visibility issues for RGB. As TIR was captured at night, no accompanying VIS is available for this dataset as the survey was conducted at night.
@@ -30,11 +30,17 @@ This document describes the datasets available for Dunrobin House (DUNR), includ
 
 ## Datsets:
 
-- **TIR**
-- **RGB**
-- **M3T** (TBC)
+| Parameters: | TIR | RGB |
+|---|---|---|
+| Camera | Workswell WIRIS Pro |Sony A7RII |
+| No. Images | 45 | 50 |
+| Min. GSD (mm) | 9.8 | 5.8 | 1.0 |
+| Max. GSD (mm)  | 9.8 | 14 | 1.3 |
+| File Format | .tiff | .jpg
 
-**Description:** No accompnaying VIS with TIR due to night-time image capture. M3T features both TIR and VIS in fixed RO. File formats (RadTIFF vs. RadJPG)
+**Zenodo link:** [Thermitage: Dunrobin House (DUNR)](https://zenodo.org/records/21649356?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6Ijc3NGIxYWQwLTJmZjYtNGU5ZS1iN2FjLWIzZjc1Y2Q4NDA4YSIsImRhdGEiOnt9LCJyYW5kb20iOiI3ZmVhYWUxZWFmNjdjZWU3ODA2OGNiY2QyOGQ4MjA0ZSJ9.pUXR93fqFauFcUj717ef4TNQADaCslAAhdnunu8ZBcDBBF-jeTs5XyN0BVsbG1iRy8yrYES2YvTRY6u4m2YlDg)
+
+**Description:** No accompnaying VIS with TIR due to night-time image capture. M3T dataset features both TIR and VIS in fixed RO. Please contact Neil Sutherland if this dataset is required. TIR features temperature value encoded within each pixel, convertible using Workswell's formula (included in Utils/RadCamCalCorrVal).
 
 ## Sensors:
 
