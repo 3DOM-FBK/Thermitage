@@ -31,10 +31,10 @@
 ## 📁 Datasets:
 
 <p align="center">
-  <img src="utils/images/ARCO.png" width="24%" />
-  <img src="utils/images/DUNR.png" width="24%" />
-  <img src="utils/images/GATE.png" width="24%" />
-  <img src="utils/images/WIND.png" width="24%" />
+  <img src="utils/images/ARCO.png" width="23%" />
+  <img src="utils/images/DUNR.png" width="23%" />
+  <img src="utils/images/GATE.png" width="23%" />
+  <img src="utils/images/WIND.png" width="23%" />
 </p>
 
 | Datasets: | TIR | VIS | RGB | UAV | TLS | SLAM |
