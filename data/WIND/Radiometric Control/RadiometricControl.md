@@ -1,6 +1,6 @@
-# Radiometric Control - [INSERT CODE HERE]
+# Radiometric Control - WIND
 
-This document describes the radiometric control for all TIR datasets included in the [INSERT SITE NAME] project, including radiometric control, sruevy conditions, equipment specifications and associated calibration documents contained in this folder.
+This document describes the radiometric control for all TIR datasets included in the Chesterton Windmill project, including radiometric control, survey conditions, equipment specifications and associated calibration documents contained in this folder.
 
 ## Terminology:
 
@@ -16,15 +16,12 @@ component temperatures within this repository, demonstrating the transformation 
 Radiometric Control method(s) used (delete as necessary):
 
 - **Proximal InfraRed Thermometer**
-- **Temprature Logger / Environmental Sensor**
-- **Other**
-- **None**
 
-**Description:** [Provide a brief reason for this choice, e.g. set-up,  accuracy, parameters.]
+**Description:** Temperature measurements were taken on the thermal-specific survey markers, with three temperatures taken at each location (two rubber and one aluminium).
 
 ## Equipment:
 
-Specify the equipment (e.g., make, model, serial number) used to undertake the control surveys (delete as necessary):
+Here, the specific equipment (e.g., make, model, serial number) used to undertake the control surveys are listed:
 
 | Equipment: | Type: | Purpose:| Accuracy: | Sensitivity: |
 |---|---|---|---|---|
@@ -34,10 +31,9 @@ Specify the equipment (e.g., make, model, serial number) used to undertake the c
 
 **Additional Equipment:**
 
-- **Testo Emission Tape:** Adhesive tape with fixed emissivity (ε = 0.95)
 - **SunCalc:** an online sunlight-phase tracker (https://www.suncalc.org)
 
-**Description:** [Provide a brief reason for this choice, e.g. set-up,  accuracy, parameters.]
+**Description:** SunCalc was used to determine the position of the sun during the surveys. Specifically, the survey was undertaken to have one side exposed to the sun and one heavily shadowed, to determine the difference in feature extraction under different conditions.
 
 ## Emissivity Values:
 
@@ -46,25 +42,21 @@ Listed emissivity values for predominant materials in the scene:
 | Material: | ε: | σ: | ∆ε: |
 |---|---|---|---|
 |**TESTO Emission Tape**|0.95|–|0.25|
-|**Mansfield Sandstone**|0.70|0.03|–|
-|**Wood**|0.90|0.14|0.20|
-|**Cast-Iron**|0.83|0.08|0.15|
+|**Sandstone**|---|---|–--|
 |**Survey Marker (Rubber)**|0.91|0.03|0.21|
 |**Survey Marker (Aluminium)**|0.37|0.04|0.53|
 
-**Description:** [Provide a brief reason for this choice, e.g. set-up,  accuracy, parameters. Include how accuracy was determined and imaging scenarios]
+**Description:** The emissivity of the predominant material is yet to be calculated. Please contact Neil Sutherland for additional details.
 
 ## Associated Documents:
 
-Include descriptions of ANY and ALL documents provided in this Geometric Camera Calibration folder as part of the geometric control for the project:
+This section includes descriptions of all documents provided in this Radiometric Control folder:
 
 | File: | Type: | Description: |
 |---|---|---|
 |**RadiometricControl.md** | Summary | Descriptive summary of folder contents and useful information |
-|**CODE-RadiomControl.csv**| Radiometric Control |Radiometric control network for the datasets|
-|**CODE-RadiomReport.pdf**| Radiometric Report | Reports for raw environmental sensors or temperature loggers. |
-|**CODE-RadiomWitnessDiagram.pdf**| Radiometric Control Witness Diagram | Sketch showing marker locations relative to fixed site features |
-|**CODE-EquipCert.pdf**| Equipment Certificates | Instrument calibration certificates |
+|**WIND-RadiomControl.csv**| Radiometric Control |Radiometric control network for the WIND TIR dataset|
+|**WIND-RadiomWitnessDiagram.pdf**| Radiometric Control Witness Diagram | Sketch showing marker locations relative to fixed site features |
 |**docs/Sutherland et al. - Multi-Modal and Multi-Sensor Photogrammetric Data Fusion Exploiting a New Repository for Infrared Thermography Datasets.pdf**| Journal Article | Associated paper with methodology, derived radiometric control methods and applications. |
 
 ---

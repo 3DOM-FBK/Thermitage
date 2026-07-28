@@ -1,88 +1,73 @@
 # Geometric Control — [INSERT SITE NAME]
 
-This document describes the geometric survey control carried out at [INSERT SITE NAME], including site details, methodology, equipment and an index of the supporting documents contained in this folder.
+This document describes the geometric survey control carried out at Chesterton Windmill, including site details, methodology, equipment and an index of the supporting documents contained in this folder.
 
 ## Method:
 
-Survey method(s) used (delete as necessary) from the controlled vocabulary below:
+Survey method(s) used:
 
-- **TST (Total Station / Theodolite)** 
-- **GNSS**
 - **SB (Scale Bars)**
-- **Other**
-- **None**
 
-**Description:** [Provide a brief reason for this choice, e.g. line-of-sight constraints, required accuracy, site access, permissions]
+**Description:** As Chesterton WIndmill is a listed building, thermal-specific survey markers were temporarily adhered to the building and measured as a series of scale bars. This included both therm-specific scale bars and natural scale bars present on the facade. In addition, scale bars were collected on the exterior and interior of the sturcture.
 
-**Existing Network?:** [brief context — e.g. extends a prior campaign, entirely new network, etc.]
+Importantly, as the RGB data was collected at a seperate time to the DJI M3T data, no thermal-specific scale bars are visible in this modality; therefore, the natural scale bars are available.
 
 ## Coordinate Reference System (CRS):
 
 Describe the coordinate reference system:
 
-- **CRS:**
 - **Local:**
 
-**Description:** [CRS scale, orientation, justifiction]
+**Description:** Several scale bars were reserved for nominal scaling and orientation
 
 ## Network Hierarchy:
 
 Describe the role of this control network within the wider survey hierarchy (delete as necessary):
 
-- **P** – Primary
-- **S** – Secondary
-- **T** – Tertiary
 - **PG** – Photogrammetric
-- **LS** – Laser Scanning
-- **A** – Aerial
 
-**Description:** [why this network sits at this level — e.g. "Primary network tying the site into the national grid"]
+**Description:** This represents a standard photogrammetric network, where scale bars are used for control and checks.
 
 ## Equipment:
 
 Specify the equipment (e.g., make, model, serial number) used to undertake the control surveys (delete as necessary):
 
 **Measurement:**
-- **TST:**
-- **GNSS:**
-- **Tape Measure:**
+
+- **Tape Measure:** Tape measure used to measure distance between thermal-specific markers and natural points. Measurements were repeated by two surveyors to reduce human error.
 
 **Survey Markers / Targets:**
-- **Make / Model:**
-- **Description:** [size, materials, purpose, reason for this marker etc.]
-- **Fixing / Adhesive:** [Description]
+- **Make / Model:** Custom Thermal-specific Survey Markers
+- **Description:** 60x60mm, aluminium and rubber elements providing crosshair visible in all modalities.
+- **Fixing / Adhesive:** Blu-tac was used as a temporary fix that did not leave any permanent residue on the building facade.
 
 ## Permanence:
 
 Describe the state of the control survey (delete as necessary):
 
-- **Permanent**
 - **Semi-Permanent**
 
-**Description:** [why this classification — e.g. markers fixed into masonry vs. temporary targets removed after survey, how long were they up?]
+**Description:** Markers were attached and detached during the survey.
 
 ## Access & Permissions:
 
 Describe any permissions that were sought (delete as necessary)
 
-- **Access Requirements:** [Restrictions, mitigation, constraints]
-- **Approval:** [Organisation / Individual, date, reason]
+- **Access Requirements:** Chesterton Windmill is public property, with regular visitors throughout the day. Surveys were undertaken early to reduce the impact for visitors (and for data quality).
+- **Approval:** N/A - Not approval or permission required
 
 **Description:** [Restrictions, mitigation, constraints building consent, planning permission, heritage designations]
 
 ## Associated Documents:
 
-Include descriptions of ANY and ALL documents provided in this Geometric Control folder as part of the geometric control for the project:
+This section includes descriptions of all documents provided in this 'Geometric Control' folder as part of the geometric control for the WIND project:
 
 | File: | Type: | Description: |
 |---|---|---|
 |**GeometricControl.md** | Summary | Descriptive summary of folder contents and useful information |
-|**CODE-GeomControl.csv**|Ground Control Points (GCPs) & Check Points (CPs)|Geometric control network. 'SBs' denotes a file using Scale Bars as opposed to individual points.|
-|**CODE-ImgCoords-SENSOR.txt**|2D Image Coordinates|2D image coordinates of geometric control|
-|**CODE-SurveyReport.pdf**| TST Report | Total station raw observations and/or reduced coordinates |
-|**CODE-GeomWitnessDiagram.pdf**| Control Witness Diagram | Sketch showing marker locations relative to fixed site features |
-|**CODE-EquipCert.pdf**| Equipment Certificates | Instrument calibration certificates |
-|**CODE-SurveyDoc.pdf**| Original Survey Docs | Scanned original field notes/records |
+|**WIND-GeomControlSBs.csv**|Ground Control Scale Bars (GCSBs) & Check Scale Bars (CSBs)|Geometric control network of scale bars  ('SBs').|
+|**WIND-ImgCoords-SENSOR.xml**| 2D Image Coordinates| 2D image coordinates of geometric control in each image modality.|
+|**WIND-GeomWitnessDiagram.pdf**| Control Witness Diagram | Images and sketches showing marker locations and scale bar positions. |
 
 ---
 
