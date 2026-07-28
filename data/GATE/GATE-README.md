@@ -41,6 +41,8 @@ This document describes the datasets available for [INSERT SITE NAME], including
 
 **Description:** [Any additional details about the data collection]
 
+[https://zenodo.org/records/21644900?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjAxYmU2YzkwLTQxMzMtNDJkNi05ZjZjLWRhZDU3MDJjM2E2NyIsImRhdGEiOnt9LCJyYW5kb20iOiIyMzc1ODA5ZjUxZTcyNmFkMWQwYzA4MmMyNWZlZDdiMSJ9.jXKBHpqsjBvdPZTvrSDH1-W4vmHtXn01_ihrT3k62sICkeNcIM-HAqJbFw54WuAbhiIZMd-eOykmyvED6GubGw](https://zenodo.org/records/21644900?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjAxYmU2YzkwLTQxMzMtNDJkNi05ZjZjLWRhZDU3MDJjM2E2NyIsImRhdGEiOnt9LCJyYW5kb20iOiIyMzc1ODA5ZjUxZTcyNmFkMWQwYzA4MmMyNWZlZDdiMSJ9.jXKBHpqsjBvdPZTvrSDH1-W4vmHtXn01_ihrT3k62sICkeNcIM-HAqJbFw54WuAbhiIZMd-eOykmyvED6GubGw)
+
 ## Sensors:
 
 | Parameters: | TIR | VIS | RGB | TLS |
