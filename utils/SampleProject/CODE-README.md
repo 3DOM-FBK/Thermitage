@@ -36,8 +36,10 @@ This document describes the datasets available for [INSERT SITE NAME], including
 |---|---|---|---|---|
 | Camera | | | | |
 | No. Images | | | | |
-| Min. GSD | | | | |
-| Max. GSD | | | | |
+| Min. GSD (mm)| | | | |
+| Max. GSD (mm)| | | | |
+
+**Zenodo link:** [Thermitage: Lenton Lodge Gatehouse (GATE)](LINK TO ZENODO DATA COLLECTION)
 
 **Description:** [Any additional details about the data collection]
 
@@ -48,14 +50,9 @@ This document describes the datasets available for [INSERT SITE NAME], including
 | Camera | | | | |
 | Sensor | | | | |
 | Resolution (pix) | | | | |
-| Focal Length (mm) | | | | |
 | Sensor Size (mm) | | | | |
-| Pixel Pitch (mm) | | | | |
-
-
-## Associated Folders & Documents:
-
-This includes descriptions of ANY and ALL documents provided in this associated folders as part of the [INSERT PROJECT CODE] project:
+| Pixel Pitch (µm) | | | | |
+| Focal Length (mm) | | | | |
 
 ## Associated Folders & Documents:
 

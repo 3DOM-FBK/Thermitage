@@ -66,7 +66,6 @@ This includes descriptions of ANY and ALL documents provided in this associated 
 | Folder: | Description: |
 |---|---|
 |**Camera Calibration**| Geometric and radiometric camera calibration information, including: camera intrinsics, relative orientation parameters and radiometric calibration, correction and validation tests.|
-|**Datasets**| Folders seperating each dataset by its modality. Each dataset comes with a .md to explain the dataset and it's contents / context.|
 |**Documentation**| Project documentation including helpful resoucres, historic significance, building surveys etc.|
 |**Geometric Control**| Geometric survey control for the project, including: defined geometric control, 2D image coordinates of control points, witness diagrams, equipment certificates and reports|
 |**Radiometric Control**| Radiometric control for the project, including: documented radiometric control, equipment specifications and survey conditions.|

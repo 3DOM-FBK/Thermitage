@@ -1,6 +1,6 @@
-# Radiometric Control - [INSERT CODE HERE]
+# Radiometric Control - GATE
 
-This document describes the radiometric control for all TIR datasets included in the [INSERT SITE NAME] project, including radiometric control, sruevy conditions, equipment specifications and associated calibration documents contained in this folder.
+This document describes the radiometric control for all TIR datasets included in the Lenton Lodge Gatehouse project, including radiometric control, survey conditions, equipment specifications and associated calibration documents contained in this folder.
 
 ## Terminology:
 
@@ -16,15 +16,12 @@ component temperatures within this repository, demonstrating the transformation 
 Radiometric Control method(s) used (delete as necessary):
 
 - **Proximal InfraRed Thermometer**
-- **Temprature Logger / Environmental Sensor**
-- **Other**
-- **None**
 
-**Description:** [Provide a brief reason for this choice, e.g. set-up,  accuracy, parameters.]
+**Description:** Measurements taken against thermal-specific survey markers using InfraRed Thermometer.
 
 ## Equipment:
 
-Specify the equipment (e.g., make, model, serial number) used to undertake the control surveys (delete as necessary):
+The following equipment was used to record the site conditions and gain radiometric check points for temperature validation:
 
 | Equipment: | Type: | Purpose:| Accuracy: | Sensitivity: |
 |---|---|---|---|---|
@@ -37,7 +34,7 @@ Specify the equipment (e.g., make, model, serial number) used to undertake the c
 - **Testo Emission Tape:** Adhesive tape with fixed emissivity (ε = 0.95)
 - **SunCalc:** an online sunlight-phase tracker (https://www.suncalc.org)
 
-**Description:** [Provide a brief reason for this choice, e.g. set-up,  accuracy, parameters.]
+**Description:** TESTO emission tape was used to determine the emissivity of the Mansfield Sandstone (ε = 0.70, σ = 0.03), whilst SunCalc was used to determine the timing of solar radiation hitting the building facade. 
 
 ## Emissivity Values:
 
@@ -52,7 +49,7 @@ Listed emissivity values for predominant materials in the scene:
 |**Survey Marker (Rubber)**|0.91|0.03|0.21|
 |**Survey Marker (Aluminium)**|0.37|0.04|0.53|
 
-**Description:** [Provide a brief reason for this choice, e.g. set-up,  accuracy, parameters. Include how accuracy was determined and imaging scenarios]
+**Description:** The following values were gained using the ASTM E1933-14 emissivity method.
 
 ## Associated Documents:
 
@@ -61,11 +58,8 @@ Include descriptions of ANY and ALL documents provided in this Geometric Camera 
 | File: | Type: | Description: |
 |---|---|---|
 |**RadiometricControl.md** | Summary | Descriptive summary of folder contents and useful information |
-|**CODE-RadiomControl.csv**| Radiometric Control |Radiometric control network for the datasets|
-|**CODE-RadiomReport.pdf**| Radiometric Report | Reports for raw environmental sensors or temperature loggers. |
-|**CODE-RadiomWitnessDiagram.pdf**| Radiometric Control Witness Diagram | Sketch showing marker locations relative to fixed site features |
-|**CODE-EquipCert.pdf**| Equipment Certificates | Instrument calibration certificates |
-|**docs/Sutherland et al. - Multi-Modal and Multi-Sensor Photogrammetric Data Fusion Exploiting a New Repository for Infrared Thermography Datasets.pdf**| Journal Article | Associated paper with methodology, derived radiometric control methods and applications. |
+|**GATE-RadiomControl.csv**| Radiometric Control |Radiometric control network for the GATE TIR dataset|
+|**GATE-RadiomWitnessDiagram.pdf**| Radiometric Control Witness Diagram | Documentation of site conditions and photos showing radiometric check points |
 
 ---
 

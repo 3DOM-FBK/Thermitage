@@ -46,6 +46,10 @@
 
 *Single checkmarks (✓) indicate a single sensor/survey; double checkmarks (✓✓) indicate repeat surveys.*
 
+### Zenodo:
+
+EXPLAIN ZENODO AND WHY IT WAS CHOSEN, HOW TO ACCESS THE DATA AND ANY SAFETY REQUIREMENTS ETC.
+
 ## 📦 Structure:
 
 - **/data** → Sample IRT datasets separated by location, modalties and processes. 
