@@ -1,3 +1,7 @@
 # Pycache
 __pycache__/
 *.pyc
+data/DUNR/Datasets/
+data/GATE/Datasets/
+data/ARCO/Datasets/
+data/WIND/Datasets/
