@@ -1,0 +1,25 @@
+{
+  "Purpose": "Pre-calibrated relative orientation (RO) parameters for Workswell WIRIS Pro",
+  "camera": "Workswell WIRIS Pro",
+  "sensors": {
+    "TIR": "WWP_TIR",
+    "VIS": "WWP_VIS",
+    "Mapping": "Mapping of WWP_TIR with respect to WWP_VIS"
+  },
+  "relative_orientation": {
+    "X_mm": -40.271,
+    "Y_mm": -0.148,
+    "Z_mm": 6.124,
+    "omegaX_deg": -0.175,
+    "phiY_deg": 0.701,
+    "kappaZ_deg": 0.000
+  },
+  "RO_sigma": {
+    "X_mm": 2.691,
+    "Y_mm": 2.845,
+    "Z_mm": 1.456,
+    "omegaX_deg": 0.073,
+    "phiY_deg": 0.071,
+    "kappaZ_deg": 0.021
+  }
+}
