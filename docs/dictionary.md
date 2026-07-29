@@ -3,11 +3,12 @@
 ## General:
 
 - **WWP:** Workswell WIRIS Pro thermal camera with integrated VIS sensor
-- **TIR:** Infrared images coming from a thermal sensor / camera.
-- **VIS:** Images coming from the 'visible spectrum' sensor within the thermal infrared camera. This designation is important as VIS images should be accompanied by a corresponding (and identifiable) TIR pair.
-- **RGB:** Images coming from separate digital cameras.
-- **RGB2:** Used specifically for the Nikon D750FX. This is to differentiate from images coming from the Sony α7R II (RGB).
-- **M3T:** DJI Mavic 3T.
+- **TIR:** Infrared images coming from a thermal sensor / camera
+- **VIS:** Images coming from the 'visible spectrum' sensor within the thermal infrared camera. This designation is important as VIS images should be accompanied by a corresponding (and identifiable) TIR pair
+- **RGB:** Images coming from separate digital cameras
+- **RGB2:** Used specifically for the Nikon D750FX. This is to differentiate from images coming from the Sony α7R II (RGB)
+- **M3T:** DJI Mavic 3T
+- **IRT-3DDF:** InfraRed Thermography 3D-Data Fusion
 
 ## Dataset Project Codes:
 

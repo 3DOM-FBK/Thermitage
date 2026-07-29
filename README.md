@@ -48,7 +48,7 @@
 
 ### Zenodo:
 
-Datasets have been hosted on Zenodo, a free and open-access repository for research data. If data is required in alternative formats, please contact **Neil Sutherland** (sutherland.neil@gmail.com).
+Datasets have been hosted on Zenodo, a free and open-access repository for research data. Each dataset features its own DOI for referencing. If data is required in alternative formats, please contact **Neil Sutherland** (sutherland.neil@gmail.com).
 
 ## 📦 Structure:
 
