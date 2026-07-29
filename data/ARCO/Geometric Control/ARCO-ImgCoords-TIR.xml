@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.7.0">
+  <chunk label="TIR" enabled="true">
+    <sensors next_id="5">
+      <sensor id="4" label="WWP_TIR" type="frame">
+        <resolution width="640" height="512"/>
+        <property name="pixel_width" value="0.016996000000000001"/>
+        <property name="pixel_height" value="0.016996000000000001"/>
+        <property name="focal_length" value="13"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band/>
+        </bands>
+        <data_type>uint16</data_type>
+        <calibration type="frame" class="adjusted">
+          <resolution width="640" height="512"/>
+          <f>661.23814657684557</f>
+          <cx>25.563841089555677</cx>
+          <cy>81.334778394796714</cy>
+          <k1>0.14808438256434478</k1>
+          <k2>0.23979062348450303</k2>
+          <p1>0.030857281403291043</p1>
+          <p2>0.052868070928069409</p2>
+        </calibration>
+        <fixed_calibration_params>b1 b2 k3 k4</fixed_calibration_params>
+        <covariance>
+          <params>f cx cy k1 k2 p1 p2</params>
+          <coeffs>35477.521110476409 -13857.976752314031 19730.402476108196 44.905645789945623 -17.874062419131736 -8.6457114073182542 11.793951903273815 -13857.976752314031 15680.98554886117 -13554.038764200592 -21.807336629225457 29.63769791328756 9.2042918760705916 -9.2807171661306622 19730.402476108196 -13554.038764200592 39198.394554584018 36.382534837840666 -106.24369778311082 -10.265274534671571 28.055111654050624 44.905645789945623 -21.807336629225457 36.382534837840666 0.24861599274114449 -0.31140427523830971 -0.016673657461286708 0.05326892826062208 -17.874062419131736 29.63769791328756 -106.24369778311082 -0.31140427523830971 0.74730955174456448 0.028962887275912837 -0.11602544125069515 -8.6457114073182542 9.2042918760705916 -10.265274534671571 -0.016673657461286708 0.028962887275912837 0.006025551436642948 -0.0076209109888028346 11.793951903273815 -9.2807171661306622 28.055111654050624 0.05326892826062208 -0.11602544125069515 -0.0076209109888028346 0.025704214880525558</coeffs>
+        </covariance>
+        <black_level>0</black_level>
+        <sensitivity>1</sensitivity>
+      </sensor>
+    </sensors>
+    <components next_id="19" active_id="17">
+      <component id="17" label="Component 1">
+        <region>
+          <center>0.48852940007675827 0.22672877509224998 -4.4643775490954356</center>
+          <size>6.1816914161046341 4.7708390315373741 4.5251331647237141</size>
+          <R>-0.36603985798972527 -0.5593128190049057 -0.74376339844042305 0.93046639922612895 -0.23346793852913822 -0.28235616088570997 -0.01571948707892248 -0.79540046025617828 0.60588035580486987</R>
+        </region>
+        <partition/>
+      </component>
+      <component id="18" label="Component 2">
+        <region>
+          <center>0.39408304141646178 0.10750912393668012 -1.0781943292217777</center>
+          <size>0.21184191505114258 0.25052101413408912 0.19065809647242227</size>
+          <R>-0.14514890377793185 -0.079148875923838236 0.98623894223056185 0.56344045062870096 -0.82598917446596842 0.016635572137876357 0.813306002884149 0.55810154909749254 0.16448710152345677</R>
+        </region>
+        <partition/>
+      </component>
+    </components>
+    <cameras next_id="161" next_group_id="0">
+      <camera id="120" sensor_id="4" label="10-50-42-994-radiometric"/>
+      <camera id="121" sensor_id="4" label="10-57-51-181-radiometric"/>
+      <camera id="122" sensor_id="4" label="10-58-15-636-radiometric"/>
+      <camera id="123" sensor_id="4" label="10-58-35-858-radiometric"/>
+      <camera id="124" sensor_id="4" label="10-59-13-417-radiometric"/>
+      <camera id="125" sensor_id="4" label="11-00-42-741-radiometric"/>
+      <camera id="126" sensor_id="4" label="11-00-59-873-radiometric"/>
+      <camera id="127" sensor_id="4" label="11-01-36-680-radiometric"/>
+      <camera id="128" sensor_id="4" label="11-02-18-561-radiometric"/>
+      <camera id="129" sensor_id="4" label="11-02-44-332-radiometric"/>
+      <camera id="130" sensor_id="4" label="11-03-09-891-radiometric"/>
+      <camera id="131" sensor_id="4" label="11-03-30-617-radiometric"/>
+      <camera id="132" sensor_id="4" label="11-05-23-675-radiometric"/>
+      <camera id="133" sensor_id="4" label="11-05-55-392-radiometric"/>
+      <camera id="134" sensor_id="4" label="11-06-25-122-radiometric"/>
+      <camera id="135" sensor_id="4" label="11-07-08-152-radiometric"/>
+      <camera id="136" sensor_id="4" label="11-07-47-434-radiometric"/>
+      <camera id="137" sensor_id="4" label="11-08-05-747-radiometric"/>
+      <camera id="138" sensor_id="4" label="11-13-16-681-radiometric"/>
+      <camera id="139" sensor_id="4" label="11-13-47-784-radiometric"/>
+      <camera id="140" sensor_id="4" label="11-15-06-045-radiometric"/>
+      <camera id="141" sensor_id="4" label="11-15-24-581-radiometric"/>
+      <camera id="142" sensor_id="4" component_id="17" label="11-15-44-090-radiometric">
+        <transform>1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1</transform>
+      </camera>
+      <camera id="143" sensor_id="4" component_id="17" label="11-16-44-880-radiometric">
+        <transform>0.99927423415646399 -0.0070171189783805356 0.037440152139850837 0.021023664962645284 -0.011864850197586331 -0.99132790040906749 0.13087482263727745 -0.16004264682507824 0.036197103210074168 -0.13122405995774244 -0.99069168554470366 -0.082618992846851341 0 0 0 1</transform>
+        <rotation_covariance>0.0039763818634362194 -0.00064468460989335183 -0.00075970985985423243 -0.00064468460989335183 0.00037855974322332521 0.00023729662030500946 -0.00075970985985423243 0.00023729662030500946 0.00032624192289693694</rotation_covariance>
+        <location_covariance>0.0044741560625822588 -0.024169205736170027 -0.0086825424050056624 -0.024169205736170027 0.16039632627260555 0.052303525817065925 -0.0086825424050056624 0.052303525817065925 0.029422016546312213</location_covariance>
+      </camera>
+      <camera id="144" sensor_id="4" component_id="17" label="11-17-03-378-radiometric">
+        <transform>0.97026023889769353 -0.037078588619198327 0.23920753976452769 -0.10196038442257233 -0.0091803471147363976 -0.99312438590496277 -0.11670336476616283 1.0910808658997606 0.24189003708512419 0.11103662633068179 -0.96392949823732343 -0.64780894316841653 0 0 0 1</transform>
+        <rotation_covariance>0.023180383412692244 -0.00088935125174597718 0.00051696497827494713 -0.00088935125174597696 0.0034058277236840547 -0.0012960905212807293 0.00051696497827494723 -0.0012960905212807293 0.0035883428172975218</rotation_covariance>
+        <location_covariance>0.04768738544854087 -0.0077613143955827905 -0.020577742750037535 -0.0077613143955827905 0.054732877859543387 0.093406154709172295 -0.020577742750037532 0.093406154709172295 0.1605593498185969</location_covariance>
+      </camera>
+      <camera id="145" sensor_id="4" label="11-17-19-586-radiometric"/>
+      <camera id="146" sensor_id="4" label="11-17-41-247-radiometric"/>
+      <camera id="147" sensor_id="4" label="11-18-10-185-radiometric"/>
+      <camera id="148" sensor_id="4" label="11-18-24-830-radiometric"/>
+      <camera id="149" sensor_id="4" label="11-18-43-978-radiometric"/>
+      <camera id="150" sensor_id="4" label="11-19-15-216-radiometric"/>
+      <camera id="151" sensor_id="4" label="11-19-45-193-radiometric"/>
+      <camera id="152" sensor_id="4" label="11-20-00-424-radiometric"/>
+      <camera id="153" sensor_id="4" label="11-20-20-879-radiometric"/>
+      <camera id="154" sensor_id="4" component_id="18" label="11-21-45-626-radiometric">
+        <transform>0.86449216509151094 -0.081182164355521252 -0.4960471274848236 0.96350729359277798 0.13900281363834521 -0.90977316229608607 0.39114065368662743 -0.63025329232161709 -0.48304400865347175 -0.40708997697847138 -0.77520722155282629 -0.46399731269063665 0 0 0 1</transform>
+      </camera>
+      <camera id="155" sensor_id="4" component_id="18" label="11-22-20-901-radiometric">
+        <transform>0.99045048105786049 0.13682863181591096 0.01690473565715285 0.53019851932877216 0.1378409574380631 -0.980307130801231 -0.14141357697482865 -0.094036607877903342 -0.0027775933486430442 0.14239331029105129 -0.98980625890097595 0.09334407316255805 0 0 0 1</transform>
+        <rotation_covariance>0.019691668367486679 0.00040534822693640568 -0.019615679098224585 0.00040534822693640531 0.021089719939786512 -0.0017606274994219026 -0.019615679098224592 -0.0017606274994219013 0.047351512555167431</rotation_covariance>
+        <location_covariance>0.074228823148523942 -0.023808023054108094 -0.0039131702075789962 -0.023808023054108094 0.011310999763135024 0.00042361078315827173 -0.0039131702075789962 0.00042361078315827173 0.039307827039388274</location_covariance>
+      </camera>
+      <camera id="157" sensor_id="4" component_id="18" label="11-24-02-121-radiometric">
+        <transform>0.91116596382589132 0.38210423058162801 0.1541847701196731 0.36722022951830047 0.40331655061034882 -0.90366977718612485 -0.14393294898719361 -0.0016034536964976047 0.084334728131442438 0.19333207383153533 -0.97750210376192737 -0.0026064608875457414 0 0 0 1</transform>
+        <rotation_covariance>0.060586980395508944 -0.013155224384493222 -0.040200452391073012 -0.013155224384493222 0.025224740890913113 0.002202606896874796 -0.040200452391073019 0.0022026068968747977 0.068655478173445431</rotation_covariance>
+        <location_covariance>0.091640915407972673 -0.033386785047280459 0.013826328858005353 -0.033386785047280459 0.023725672854317599 -0.0018657911352036557 0.013826328858005353 -0.0018657911352036557 0.045811889373117656</location_covariance>
+      </camera>
+      <camera id="158" sensor_id="4" component_id="18" label="11-24-33-486-radiometric">
+        <transform>0.95899297009511009 0.030284584739057901 -0.28180725192113354 0.49612641428068177 0.017966873051947954 -0.99877098694414213 -0.046192067623781322 -0.089466394677876426 -0.28285981471551164 0.039234673004978918 -0.95835847450382516 0.015848501244915932 0 0 0 1</transform>
+        <rotation_covariance>0.011688855682672273 -0.0078402863069396197 -0.0077376383463804233 -0.0078402863069396197 0.045485512237682373 0.014998787793394353 -0.0077376383463804224 0.01499878779339435 0.039987179801177483</rotation_covariance>
+        <location_covariance>0.06865825424679009 -0.021476550816015585 -0.0012611569947910354 -0.021476550816015585 0.011568077615098812 0.0027131428131210574 -0.0012611569947910354 0.0027131428131210574 0.024552907934191171</location_covariance>
+      </camera>
+      <camera id="159" sensor_id="4" component_id="18" label="11-24-51-275-radiometric">
+        <transform>0.60295220315575104 0.015583061426035383 -0.79762510548892396 1.0651430031383273 0.061118581254038386 -0.99777311292305237 0.026708316183066183 -0.2114577403308644 -0.79543268711759563 -0.064853552905246026 -0.60256191129248049 -0.32205418023334648 0 0 0 1</transform>
+        <rotation_covariance>0.010834139579449707 0.0016152937548034783 -0.00061514710084901222 0.0016152937548034783 0.0054313168394801064 0.0023242184965614329 -0.00061514710084901308 0.0023242184965614329 0.0082878272065585127</rotation_covariance>
+        <location_covariance>0.012942980475025314 -0.0056886492300985475 0.0075164748848171974 -0.0056886492300985475 0.0031994889117771307 -0.0053666691079147259 0.0075164748848171982 -0.0053666691079147259 0.010452037146972048</location_covariance>
+      </camera>
+      <camera id="160" sensor_id="4" label="11-25-24-188-radiometric"/>
+    </cameras>
+    <markers next_id="76" next_group_id="0">
+      <marker id="61" label="P1"/>
+      <marker id="62" label="P2"/>
+      <marker id="63" label="P3"/>
+      <marker id="64" label="P4"/>
+      <marker id="65" label="P5"/>
+      <marker id="66" label="P6"/>
+      <marker id="67" label="P7"/>
+      <marker id="68" label="P8"/>
+      <marker id="69" label="P9"/>
+      <marker id="70" label="P10"/>
+      <marker id="71" label="P11"/>
+      <marker id="72" label="P12"/>
+      <marker id="73" label="P13"/>
+      <marker id="74" label="P14"/>
+    </markers>
+    <scalebars next_id="12" next_group_id="0">
+      <scalebar id="8" label="P1_P2">
+        <endpoint marker_id="61"/>
+        <endpoint marker_id="62"/>
+        <reference d="0.47999999999999998" enabled="false"/>
+      </scalebar>
+      <scalebar id="9" label="P8_P10">
+        <endpoint marker_id="68"/>
+        <endpoint marker_id="70"/>
+        <reference d="0.82999999999999996" enabled="false"/>
+      </scalebar>
+      <scalebar id="10" label="P8_P11">
+        <endpoint marker_id="68"/>
+        <endpoint marker_id="71"/>
+        <reference d="0.95699999999999996" enabled="false"/>
+      </scalebar>
+      <scalebar id="11" label="P10_P11">
+        <endpoint marker_id="70"/>
+        <endpoint marker_id="71"/>
+        <reference d="0.47599999999999998" enabled="false"/>
+      </scalebar>
+    </scalebars>
+    <reference>LOCAL_CS["Local Coordinates (m)",LOCAL_DATUM["Local Datum",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]</reference>
+    <region>
+      <center>0.48852940007675827 0.22672877509224998 -4.4643775490954356</center>
+      <size>6.1816914161046341 4.7708390315373741 4.5251331647237141</size>
+      <R>-0.36603985798972527 -0.5593128190049057 -0.74376339844042305 0.93046639922612895 -0.23346793852913822 -0.28235616088570997 -0.01571948707892248 -0.79540046025617828 0.60588035580486987</R>
+    </region>
+    <settings>
+      <property name="accuracy_tiepoints" value="1"/>
+      <property name="accuracy_cameras" value="10"/>
+      <property name="accuracy_cameras_ypr" value="10"/>
+      <property name="accuracy_markers" value="0.0050000000000000001"/>
+      <property name="accuracy_scalebars" value="0.0050000000000000001"/>
+      <property name="accuracy_projections" value="1"/>
+      <color_transform enabled="true">
+        <formula level_min="13.8714" level_max="17.648399999999999">(B1/40)-100</formula>
+        <color_ramp interpolate="true" formula_index="0">
+          <entry value="0" color="#000000"/>
+          <entry value="1" color="#ffffff"/>
+        </color_ramp>
+      </color_transform>
+    </settings>
+    <meta>
+      <property name="AlignCameras/adaptive_fitting" value="false"/>
+      <property name="AlignCameras/duration" value="0.642"/>
+      <property name="AlignCameras/min_image" value="2"/>
+      <property name="AlignCameras/ram_used" value="10711040"/>
+      <property name="AlignCameras/reset_alignment" value="true"/>
+      <property name="AlignCameras/subdivide_task" value="true"/>
+      <property name="Info/LastSavedDateTime" value="2025:03:06 23:30:18"/>
+      <property name="Info/LastSavedSoftwareVersion" value="2.1.3.18946"/>
+      <property name="OptimizeCameras/sigma0" value="0.501423521696823"/>
+    </meta>
+    <frames next_id="1">
+      <frame id="0">
+        <markers>
+          <marker marker_id="61">
+            <location camera_id="120" pinned="true" x="339.287964" y="220.95697"/>
+            <location camera_id="121" pinned="true" x="209.486404" y="217.889633"/>
+            <location camera_id="122" pinned="true" x="104.44191" y="219.120438"/>
+            <location camera_id="140" pinned="true" x="126.506737" y="378.519531"/>
+            <location camera_id="141" pinned="true" x="206.313522" y="380.08905"/>
+            <location camera_id="142" pinned="true" x="280.860138" y="380.654327"/>
+            <location camera_id="143" pinned="true" x="251.759415" y="455.77301"/>
+            <location camera_id="144" pinned="true" x="120.759323" y="457.519989"/>
+            <location camera_id="145" pinned="true" x="86.3700333" y="451.208618"/>
+            <location camera_id="146" pinned="true" x="55.8237152" y="440.773682"/>
+            <position_covariance>1.7067070787548231 1.3715248963367814 1.0032902926722616 1.3715248963367814 3.3613775606796095 -0.14748980323979929 1.0032902926722616 -0.14748980323979929 10.174040515669612</position_covariance>
+          </marker>
+          <marker marker_id="62">
+            <location camera_id="120" pinned="true" x="338.031555" y="364.057373"/>
+            <location camera_id="121" pinned="true" x="208.794037" y="363.132477"/>
+            <location camera_id="122" pinned="true" x="103.167191" y="368.125458"/>
+          </marker>
+          <marker marker_id="63">
+            <location camera_id="121" pinned="true" x="533.690308" y="228.281708"/>
+            <location camera_id="122" pinned="true" x="437.528259" y="231.194122"/>
+            <location camera_id="123" pinned="true" x="231.514359" y="227.881577"/>
+            <location camera_id="124" pinned="true" x="132.604446" y="228.1371"/>
+            <location camera_id="125" pinned="true" x="151.931473" y="220.217102"/>
+            <location camera_id="139" pinned="true" x="255.719254" y="389.41745"/>
+            <location camera_id="140" pinned="true" x="428.758148" y="392.769348"/>
+            <location camera_id="141" pinned="true" x="508.306458" y="392.8461"/>
+            <location camera_id="142" pinned="true" x="575.120789" y="390.268707"/>
+            <location camera_id="143" pinned="true" x="553.385498" y="459.661652"/>
+            <location camera_id="144" pinned="true" x="438.499451" y="461.041656"/>
+            <location camera_id="145" pinned="true" x="398.512421" y="460.215942"/>
+            <location camera_id="146" pinned="true" x="346.594635" y="455.175568"/>
+            <location camera_id="160" pinned="true" x="242.852722" y="461.044861"/>
+            <position_covariance>1.7038052867102012 0.51153005317508315 -2.8557400461492399 0.51153005317508315 2.5251572330794607 -0.016250473375123701 -2.8557400461492399 -0.016250473375123701 7.5766758477493363</position_covariance>
+          </marker>
+          <marker marker_id="64">
+            <location camera_id="121" pinned="true" x="534.627563" y="344.099823"/>
+            <location camera_id="122" pinned="true" x="437.590424" y="347.654877"/>
+            <location camera_id="123" pinned="true" x="233.242172" y="343.067719"/>
+            <location camera_id="124" pinned="true" x="134.986588" y="345.114075"/>
+            <location camera_id="125" pinned="true" x="152.337982" y="419.373383"/>
+            <location camera_id="139" pinned="true" x="255.020767" y="502.734375"/>
+            <location camera_id="140" pinned="true" x="430.021698" y="505.678741"/>
+            <location camera_id="142" pinned="true" x="579.337769" y="502.060822"/>
+          </marker>
+          <marker marker_id="65">
+            <location camera_id="122" pinned="true" x="597.145508" y="240.76886"/>
+            <location camera_id="123" pinned="true" x="392.927765" y="238.846664"/>
+            <location camera_id="124" pinned="true" x="309.44223" y="238.665619"/>
+            <location camera_id="125" pinned="true" x="322.778229" y="240.048431"/>
+            <location camera_id="126" pinned="true" x="126.955551" y="235.097092"/>
+            <location camera_id="127" pinned="true" x="97.3341675" y="234.815765"/>
+            <location camera_id="128" pinned="true" x="151.454117" y="226.473145"/>
+            <location camera_id="135" pinned="true" x="242.901932" y="418.016174"/>
+            <location camera_id="136" pinned="true" x="398.761353" y="471.581604"/>
+            <location camera_id="137" pinned="true" x="77.995079" y="460.362762"/>
+            <location camera_id="139" pinned="true" x="425.618256" y="395.379944"/>
+            <location camera_id="140" pinned="true" x="594.525085" y="400.254272"/>
+            <location camera_id="144" pinned="true" x="587.581848" y="460.530701"/>
+            <location camera_id="145" pinned="true" x="561.189758" y="463.03595"/>
+            <location camera_id="146" pinned="true" x="516.327515" y="461.113678"/>
+            <location camera_id="160" pinned="true" x="398.868958" y="459.233673"/>
+          </marker>
+          <marker marker_id="66">
+            <location camera_id="122" pinned="true" x="596.636414" y="354.536743"/>
+            <location camera_id="123" pinned="true" x="390.91748" y="348.015228"/>
+            <location camera_id="124" pinned="true" x="308.971649" y="349.693695"/>
+            <location camera_id="125" pinned="true" x="322.756317" y="393.942413"/>
+            <location camera_id="126" pinned="true" x="125.941788" y="391.378967"/>
+            <location camera_id="127" pinned="true" x="95.9611893" y="385.71521"/>
+            <location camera_id="128" pinned="true" x="151.451309" y="415.239716"/>
+            <location camera_id="139" pinned="true" x="424.784882" y="508.86377"/>
+          </marker>
+          <marker marker_id="67">
+            <location camera_id="124" pinned="true" x="567.816772" y="265.215942"/>
+            <location camera_id="125" pinned="true" x="427.011871" y="272.094696"/>
+            <location camera_id="126" pinned="true" x="296.50705" y="267.415649"/>
+            <location camera_id="127" pinned="true" x="343.542175" y="269.611725"/>
+            <location camera_id="128" pinned="true" x="78.8347168" y="262.496124"/>
+            <location camera_id="135" pinned="true" x="165.985031" y="402.033264"/>
+            <location camera_id="136" pinned="true" x="416.194153" y="412.68399"/>
+            <location camera_id="137" pinned="true" x="263.703247" y="406.220612"/>
+            <location camera_id="138" pinned="true" x="309.583466" y="405.809265"/>
+            <location camera_id="150" pinned="true" x="171.765594" y="461.536621"/>
+            <location camera_id="151" pinned="true" x="371.280975" y="495.022095"/>
+            <location camera_id="152" pinned="true" x="266.276276" y="486.950287"/>
+            <location camera_id="153" pinned="true" x="263.219421" y="491.512665"/>
+          </marker>
+          <marker marker_id="68">
+            <location camera_id="124" pinned="true" x="632.957642" y="231.040756"/>
+            <location camera_id="126" pinned="true" x="591.217773" y="233.082474"/>
+            <location camera_id="127" pinned="true" x="547.376892" y="230.917236"/>
+            <location camera_id="128" pinned="true" x="539.500732" y="229.869049"/>
+            <location camera_id="129" pinned="true" x="315.370392" y="236.029877"/>
+            <location camera_id="130" pinned="true" x="181.719421" y="235.833206"/>
+            <location camera_id="131" pinned="true" x="85.9616928" y="232.984192"/>
+            <location camera_id="132" pinned="true" x="78.7482224" y="387.765656"/>
+            <location camera_id="133" pinned="true" x="149.233231" y="392.726318"/>
+            <location camera_id="134" pinned="true" x="266.83255" y="394.613525"/>
+            <location camera_id="135" pinned="true" x="559.514893" y="403.619263"/>
+            <location camera_id="138" pinned="true" x="471.573669" y="479.579956"/>
+            <location camera_id="148" pinned="true" x="18.5513916" y="489.709259"/>
+            <location camera_id="149" pinned="true" x="288.524994" y="486.793945"/>
+            <location camera_id="150" pinned="true" x="597.502075" y="496.184418"/>
+          </marker>
+          <marker marker_id="69">
+            <location camera_id="124" pinned="true" x="633.50769" y="398.992767"/>
+            <location camera_id="126" pinned="true" x="590.874756" y="410.58728"/>
+            <location camera_id="127" pinned="true" x="545.693298" y="425.170868"/>
+            <location camera_id="128" pinned="true" x="536.935547" y="378.081512"/>
+            <location camera_id="129" pinned="true" x="313.748413" y="376.466339"/>
+            <location camera_id="130" pinned="true" x="180.6987" y="363.037994"/>
+            <location camera_id="131" pinned="true" x="84.4393387" y="350.100616"/>
+          </marker>
+          <marker marker_id="70">
+            <location camera_id="129" pinned="true" x="583.692993" y="232.903717"/>
+            <location camera_id="130" pinned="true" x="418.956635" y="232.924347"/>
+            <location camera_id="131" pinned="true" x="295.860565" y="232.122162"/>
+            <location camera_id="132" pinned="true" x="292.580078" y="393.674408"/>
+            <location camera_id="133" pinned="true" x="369.953278" y="397.890411"/>
+            <location camera_id="134" pinned="true" x="490.550934" y="399.40033"/>
+            <location camera_id="147" pinned="true" x="100.613693" y="500.322845"/>
+            <location camera_id="148" pinned="true" x="297.99765" y="500.658234"/>
+          </marker>
+          <marker marker_id="71">
+            <location camera_id="129" pinned="true" x="585.371887" y="388.894806"/>
+            <location camera_id="130" pinned="true" x="419.072205" y="374.60611"/>
+            <location camera_id="131" pinned="true" x="295.039917" y="363.500183"/>
+          </marker>
+          <marker marker_id="72">
+            <location camera_id="123" pinned="true" x="597.723267" y="423.807434"/>
+            <location camera_id="124" pinned="true" x="554.917908" y="428.268372"/>
+            <location camera_id="125" pinned="true" x="422.633301" y="447.105408"/>
+            <location camera_id="126" pinned="true" x="289.843079" y="444.041748"/>
+            <location camera_id="127" pinned="true" x="332.858002" y="445.853943"/>
+          </marker>
+          <marker marker_id="73">
+            <location camera_id="122" pinned="true" x="608.223206" y="450.792419"/>
+            <location camera_id="123" pinned="true" x="417.259186" y="438.847656"/>
+            <location camera_id="124" pinned="true" x="361.490723" y="443.063385"/>
+            <location camera_id="125" pinned="true" x="263.977753" y="502.135529"/>
+            <location camera_id="126" pinned="true" x="104.379822" y="503.119568"/>
+            <location camera_id="127" pinned="true" x="128.546265" y="492.186462"/>
+          </marker>
+          <marker marker_id="74">
+            <location camera_id="120" pinned="true" x="460.360657" y="462.384094"/>
+            <location camera_id="121" pinned="true" x="327.925964" y="455.962799"/>
+            <location camera_id="122" pinned="true" x="243.381531" y="461.347656"/>
+            <location camera_id="123" pinned="true" x="49.1837311" y="462.851532"/>
+          </marker>
+        </markers>
+      </frame>
+    </frames>
+  </chunk>
+</document>

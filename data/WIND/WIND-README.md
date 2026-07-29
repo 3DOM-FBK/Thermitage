@@ -37,7 +37,7 @@ Steve Sutherland | ---|Drone Spotter
 | No. Images (Int. / Ext)| 203 (43/160) | 203 (43/160) | 84 (50/34) |
 | Avg. GSD (Int./Ext.) |5.3/10.6 | 1.5/3.0 | 0.5/1.3 |
 
-**Zenodo link:** [Thermitage: Chesterton Windmill (WIND)](LINK TO ZENODO DATA COLLECTION)
+**Zenodo link:** [Thermitage: Chesterton Windmill (WIND)](https://zenodo.org/records/21656248?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjE5NGY4ZTNlLTYwZGQtNDlhOC05ZDY5LTUwOGU1Y2RjYTAwYiIsImRhdGEiOnt9LCJyYW5kb20iOiI3MGVkMDNiOGIzZTdiYzM5MTM1ODYyMDdjYTRlMDgyNSJ9.niKkJIXQmOsl2jGieLIYBhzCsvGhvPwqBTrvAPd1JFWsh_R9JdWsw9vTpCxeTE5aZe5at3O7yvQa-RR6c1FiLw)
 
 **Description:** Concurrent TIR-VIS image pairs captured with the DJI Mavic 3T. These images are a fixed baseline, provided in the GeoCamCal folder. RGB images were captured both landscape and portrait the day after the DJI surveys..
 

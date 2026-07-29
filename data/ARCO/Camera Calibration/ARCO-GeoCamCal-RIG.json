@@ -1,0 +1,25 @@
+{
+  "Purpose": "Pre-calibrated relative orientation (RO) parameters for Nikon_RGB2 and WWP_TIR",
+  "Stereo Set-Up": "Custom stereo rig with Nikon D750 and WWP",
+  "sensors": {
+    "TIR": "WWP_TIR",
+    "RGB": "NIKON_RGB2",
+    "Mapping": "Mapping of WWP_TIR with respect to NIKON_RGB2"
+  },
+  "relative_orientation": {
+    "X_mm": -183.084,
+    "Y_mm": 1.242,
+    "Z_mm": -11.154,
+    "omegaX_deg": 0.424,
+    "phiY_deg": 3.208,
+    "kappaZ_deg": -0.175
+  },
+  "RO_sigma": {
+    "X_mm": 1.493,
+    "Y_mm": 2.023,
+    "Z_mm": 1.276,
+    "omegaX_deg": 0.080,
+    "phiY_deg": 0.066,
+    "kappaZ_deg": 0.296
+  }
+}

@@ -3,6 +3,7 @@ For all dictionary terms:
 **General:**
 - TIR
 - RGB
+- RGB2
 - VIS
 - CRS
 - M3T
