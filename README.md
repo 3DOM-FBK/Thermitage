@@ -37,20 +37,18 @@
   <img src="utils/images/WIND.png" width="24.5%" />
 </p>
 
-| Datasets: | TIR | VIS | RGB | UAV | TLS | SLAM |
-|---|---|---|---|---|---|---|
-|**ARCO**|✓|✓|✓|–|–|✓|
-|**GATE**|✓✓|✓✓|✓✓|–|✓|–|
-|**DUNR**|✓✓|✓✓|✓✓|✓|–|–|
-|**WIND**|✓|✓|✓✓|✓✓|–|–|
+| Datasets: | TIR | VIS | RGB | UAV | TLS | SLAM |Available From
+|---|---|---|---|---|---|---|---|
+|**ARCO**|✓|✓|✓|–|–|✓|[Castello di Arco (ARCO)](https://zenodo.org/records/21672415?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImQzZmVmZjMyLWE5MzMtNDEwZi1iNmE5LTBjNjgzM2QxMGJmYSIsImRhdGEiOnt9LCJyYW5kb20iOiJkOThjZGVkNGVjM2YzZjRlMjI0M2I1MGE3MjllNjBkYSJ9.KuIQX4CrJbQoJjrxNuh-_nhZ5EIgqFjcFfAAK68mAVw5EY8rexTBQpvRVMAxMkjqC2cmmx5tszBWkOVo_RpjDQ)|
+|**DUNR**|✓✓|✓✓|✓✓|✓|–|–|[Dunrobin House (DUNR)](https://zenodo.org/records/21649356?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6Ijc3NGIxYWQwLTJmZjYtNGU5ZS1iN2FjLWIzZjc1Y2Q4NDA4YSIsImRhdGEiOnt9LCJyYW5kb20iOiI3ZmVhYWUxZWFmNjdjZWU3ODA2OGNiY2QyOGQ4MjA0ZSJ9.pUXR93fqFauFcUj717ef4TNQADaCslAAhdnunu8ZBcDBBF-jeTs5XyN0BVsbG1iRy8yrYES2YvTRY6u4m2YlDg)|
+|**GATE**|✓✓|✓✓|✓✓|–|✓|–|[Lenton Lodge Gatehouse (GATE)](https://zenodo.org/records/21644900?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjAxYmU2YzkwLTQxMzMtNDJkNi05ZjZjLWRhZDU3MDJjM2E2NyIsImRhdGEiOnt9LCJyYW5kb20iOiIyMzc1ODA5ZjUxZTcyNmFkMWQwYzA4MmMyNWZlZDdiMSJ9.jXKBHpqsjBvdPZTvrSDH1-W4vmHtXn01_ihrT3k62sICkeNcIM-HAqJbFw54WuAbhiIZMd-eOykmyvED6GubGw)|
+|**WIND**|✓|✓|✓✓|✓✓|–|–|[Chesterton Windmill (WIND)](https://zenodo.org/records/21656248?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjE5NGY4ZTNlLTYwZGQtNDlhOC05ZDY5LTUwOGU1Y2RjYTAwYiIsImRhdGEiOnt9LCJyYW5kb20iOiI3MGVkMDNiOGIzZTdiYzM5MTM1ODYyMDdjYTRlMDgyNSJ9.niKkJIXQmOsl2jGieLIYBhzCsvGhvPwqBTrvAPd1JFWsh_R9JdWsw9vTpCxeTE5aZe5at3O7yvQa-RR6c1FiLw)|
 
 *Single checkmarks (✓) indicate a single sensor/survey; double checkmarks (✓✓) indicate repeat surveys.*
 
 ### Zenodo:
 
-EXPLAIN ZENODO AND WHY IT WAS CHOSEN, HOW TO ACCESS THE DATA AND ANY SAFETY REQUIREMENTS ETC.
-
-SPECIFY ORCID ATTACHED TO EACH DATASET
+Datasets have been hosted on Zenodo, a free and open-access repository for research data. If data is required in alternative formats, please contact **Neil Sutherland** (sutherland.neil@gmail.com).
 
 ## 📦 Structure:
 
@@ -60,11 +58,10 @@ SPECIFY ORCID ATTACHED TO EACH DATASET
 
 ## 📄 Citations:
 
-If you use Thermitage, please cite:  
+If you use Thermitage as part of your work, please cite the following:  
 
 * Sutherland, N.; Morelli, L.; Mills, J.; Bryan, P.; Marsh, S.; Remondino, F. Multi-Modal and Multi-Sensor Photogrammetric Data Fusion Exploiting a New Repository for Infrared Thermography Datasets. *Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci.* 2025, XLVIII-1/W6-2025, pp. 235–242. [https://doi.org/10.5194/isprs-archives-XLVIII-1-W6-2025-235-2025](https://doi.org/10.5194/isprs-archives-XLVIII-1-W6-2025-235-2025)
 
 * Sutherland, N.; Marsh, S.; Remondino, F.; Perda, G.; Bryan, P.; Mills, J. Geometric Calibration of Thermal Infrared Cameras: A Comparative Analysis for Photogrammetric Data Fusion. *Metrology* 2025, 5, 43. [https://doi.org/10.3390/metrology5030043](https://doi.org/10.3390/metrology5030043)
 
-* Morelli, L.; Sutherland, N.; Ioli, F.; Vitti, A.; Marsh, S.; Mills, J.; Bryan, P.; Remondino, F. Evaluating Deep Learning Local Features for RGB-Thermal Image Matching
-and 3D InfraRed Thermography. *Geomatics* 2026, (Pre-Publish)
+* Morelli, L.; Sutherland, N.; Ioli, F.; Vitti, A.; Marsh, S.; Mills, J.; Bryan, P.; Remondino, F. Evaluating Deep Learning Local Features for RGB-Thermal Image Matching and 3D InfraRed Thermography. *Geomatics* 2026, 6, 83. [https://doi.org/10.3390/geomatics6040083](https://doi.org/10.3390/geomatics6040083)
