@@ -34,7 +34,7 @@
   <img src="utils/images/ARCO.png" width="24.5%" />
   <img src="utils/images/DUNR.png" width="24.5%" />
   <img src="utils/images/GATE.png" width="24.5%" />
-  <img src="utils/images/WIND.png" width="24.5%" />
+  <img src="NAS-IMG-260902-V001-Figure3.png" width="24.5%" />
 </p>
 
 | Datasets: | TIR | VIS | RGB | UAV | TLS | SLAM |Available From
